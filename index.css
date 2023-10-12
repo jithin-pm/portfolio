@@ -1,0 +1,269 @@
+*{
+    font-family: 'Fjalla One', sans-serif;
+}
+/* header part */
+
+.logo {
+    width: 120px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    margin-right: 60px;
+    display: flex;
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 50px;
+    letter-spacing: 5px;
+}
+
+.links:hover {
+    color: crimson;
+}
+
+/* HOME PART */
+
+#home {
+    margin-top: 300px;
+}
+
+.title {
+    margin-left: 5%;
+    margin-top: 13%;
+}
+
+.title-h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sec-name{
+    color: rgb(255, 5, 93);
+}
+
+.download{
+    text-decoration: none;
+    background-color: rgb(17, 17, 17);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* image section */
+
+.imgs{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.imgs img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.imgs:hover #shape{
+    bottom: 70px;
+}
+
+.imgs:hover #girl{
+    left: 40%;
+}
+
+/* ABOUT PART */
+
+#about{
+    margin-top: 200px;
+}
+
+
+.heading{
+    margin-left: 760px;
+    margin-top: 50px;
+}
+
+.heading h4{
+    color: rgb(15, 158, 110);
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    margin-right: 10px;
+    gap: 2rem;
+    text-align: justify;
+}
+
+.about-content img{
+    margin-top: -106px;
+}
+
+/* skills section  */
+
+#skills{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.heading span{
+    color: rgb(15, 158, 110);
+}
+
+
+.percentage{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.html .per{
+    padding-left: 485px;
+}
+.html .orange{
+    width: 530px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.html .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.css .per{
+    padding-left: 495px;
+}
+
+.css .orange{
+    width: 500px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.css .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.js .per{
+    padding-left: 502px;
+}
+
+.js .orange{
+    width: 510px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.js .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.react .per{
+    padding-left: 482px;
+}
+
+.react .orange{
+    width: 490px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.react .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.imgskill{
+    margin-left: 816px;
+    margin-top: -300px;
+}
+
+/* Contact section  */
+
+#contact{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+#contact .heading {
+    margin-left: 698px;
+    margin-top: 50px;
+}
+
+.icon-set{
+    margin-left: 584px;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    margin-top: 3%;    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rights p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right ,yellow,red);
+}
+@keyframes shake{
+    10%{
+        transform: rotate(-15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
+
